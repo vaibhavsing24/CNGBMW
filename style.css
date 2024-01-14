@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.bmw{
+position: relative;
+height: 300px;
+width: 300px;
+background-color: rgb(0, 0, 0);
+border-radius: 100%;
+}
+.b,
+.m,
+.w{
+    position: absolute;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.b{
+    top: 45px;
+    left: 15%;
+    transform: rotate(315deg);
+}
+.m{
+    top: 5px;
+    left: 120px;
+}
+.w{
+    top: 42px;
+    right: 13%;
+    
+    transform: rotate(50deg);
+}
+.innercircle{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    background-color: black;
+    top: 20%;
+    left: 20%;
+}
+.s1{
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 49%;
+    width: 49%;
+    background-color: aqua;
+    border-radius: 100% 0 0 ;
+}
+ .s2{
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 49%;
+    width: 49%;
+    background-color: white;
+    border-radius: 0 100% 0 0;
+}
+
+.s3{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 49%;
+    width: 49%;
+    background-color: white;
+    border-radius: 0 0 0 100%;
+}
+
+.s4{
+    right: 0;
+    bottom:0;
+    position: absolute;
+    height: 49%;
+    width: 49%;
+    background-color:aqua;
+    border-radius: 0 0 100% 0;
+} 
